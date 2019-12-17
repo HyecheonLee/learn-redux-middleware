@@ -16,7 +16,7 @@ function PostListContainer(props) {
 	if (error) return <div>에러 발생!</div>;
 	if (!data) return null;
 	return (
-		<PostList posts={data}/>
+		<PostList key={"1"} posts={data}/>
 	);
 }
 
