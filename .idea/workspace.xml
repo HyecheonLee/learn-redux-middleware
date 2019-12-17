@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5cfb1aa0-8479-43c4-a152-84932e10bb17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/CounterContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CounterContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576498315038</updated>
-      <workItem from="1576498316445" duration="2703000" />
+      <workItem from="1576498316445" duration="3343000" />
+      <workItem from="1576579393275" duration="1400000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1576498528825</created>
@@ -113,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576500593369</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="redux-thunk">
+      <created>1576501164854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576501164854</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,21 +128,24 @@
     <MESSAGE value="리덕스 프로젝트 준비하기" />
     <MESSAGE value="리덕스 미들웨어 만들어보기" />
     <MESSAGE value="redux-logger , devtools 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="redux-logger , devtools 추가" />
+    <MESSAGE value="redux-thunk" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux-thunk" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="572" y="26" key="CommitChangelistDialog2" timestamp="1576500592841">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1348" y="30" key="CommitChangelistDialog2" timestamp="1576581788011">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="572" y="26" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576500592841" />
+    <state x="-1348" y="30" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576581788011" />
+    <state x="572" y="26" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576501164284" />
     <state x="801" y="410" key="Github.ShareDialog" timestamp="1576498505004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="801" y="410" key="Github.ShareDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576498505004" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1576500595854">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576581795920">
+      <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576500595854" />
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576581795920" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576501166986" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1576500138746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
