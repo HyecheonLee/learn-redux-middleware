@@ -1,8 +1,8 @@
 import * as postsAPI from "../posts";
 import {
-	createPromiseThunk,
-	handleAsyncActions,
-	reducerUtils
+  createPromiseThunk,
+  handleAsyncActions,
+  reducerUtils
 } from "../lib/asyncUtils";
 
 const GET_POSTS = "GET_POSTS";
@@ -17,32 +17,70 @@ const CLEAR_POST = "CLEAR_POST";
 
 export const getPosts = createPromiseThunk(GET_POSTS, postsAPI.getPosts);
 
-export const getPost = createPromiseThunk(GET_POST, postsAPI.getPostsById);
-export const clearPost = () => ({type: CLEAR_POST});
+export const getPost = id => async dispatch => {
+  dispatch({ type: GET_POST, meta: id });
+  try {
+    const payload = postsAPI.getPostsById(id);
+    dispatch({ type: GET_POST_SUCCESS, payload, meta: id });
+  } catch (e) {
+    dispatch({ type: GET_POST_ERROR, payload: e, meta: id });
+  }
+};
+export const clearPost = () => ({ type: CLEAR_POST });
 const initialState = {
-	posts: reducerUtils.initial(),
-	post: reducerUtils.initial()
+  posts: reducerUtils.initial(),
+  post: {}
 };
 
 const getPostsReducer = handleAsyncActions(GET_POSTS, "posts", true);
-const getPostReducer = handleAsyncActions(GET_POST, "post");
+const getPostReducer = (state, action) => {
+  const id = action.meta;
+  switch (action.type) {
+    case GET_POST:
+      return {
+        ...state,
+        post: {
+          ...state.post,
+          [id]: reducerUtils.loading(state.post[id] && state.post[id].data)
+        }
+      };
+    case GET_POST_SUCCESS:
+      return {
+        ...state,
+        post: {
+          ...state.post,
+          [id]: reducerUtils.success(action.payload)
+        }
+      };
+    case GET_POST_ERROR:
+      return {
+        ...state,
+        post: {
+          ...state.post,
+          [id]: reducerUtils.error(action.payload)
+        }
+      };
+    default:
+      return state;
+  }
+};
 
 export default function posts(state = initialState, action) {
-	switch (action.type) {
-		case GET_POSTS:
-		case GET_POSTS_SUCCESS:
-		case GET_POSTS_ERROR:
-			return getPostsReducer(state, action);
-		case GET_POST:
-		case GET_POST_SUCCESS:
-		case GET_POST_ERROR:
-			return getPostReducer(state, action);
-		case CLEAR_POST:
-			return {
-				...state,
-				post: reducerUtils.initial()
-			};
-		default:
-			return state;
-	}
+  switch (action.type) {
+    case GET_POSTS:
+    case GET_POSTS_SUCCESS:
+    case GET_POSTS_ERROR:
+      return getPostsReducer(state, action);
+    case GET_POST:
+    case GET_POST_SUCCESS:
+    case GET_POST_ERROR:
+      return getPostReducer(state, action);
+    case CLEAR_POST:
+      return {
+        ...state,
+        post: reducerUtils.initial()
+      };
+    default:
+      return state;
+  }
 }

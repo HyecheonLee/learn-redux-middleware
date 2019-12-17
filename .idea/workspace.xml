@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cfb1aa0-8479-43c4-a152-84932e10bb17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/PostContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PostListPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PostPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/PostListContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PostListContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/asyncUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/asyncUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/PostContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PostContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576498315038</updated>
       <workItem from="1576498316445" duration="3343000" />
-      <workItem from="1576579393275" duration="6468000" />
+      <workItem from="1576579393275" duration="6884000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1576498528825</created>
@@ -142,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576582349525</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="특정 포스트 읽기">
+      <created>1576586864099</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576586864099</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,17 +153,18 @@
     <MESSAGE value="redux-thunk" />
     <MESSAGE value="posts reducer 작성" />
     <MESSAGE value="포스트 리스트 구현하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="포스트 리스트 구현하기" />
+    <MESSAGE value="특정 포스트 읽기" />
+    <option name="LAST_COMMIT_MESSAGE" value="특정 포스트 읽기" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1280" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576584301731">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1280" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576584301731" />
-    <state x="-1348" y="30" key="CommitChangelistDialog2" timestamp="1576582348988">
+    <state x="-1348" y="30" key="CommitChangelistDialog2" timestamp="1576586863277">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="-1348" y="30" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576582348988" />
+    <state x="-1348" y="30" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576586863277" />
     <state x="572" y="26" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576501164284" />
     <state x="801" y="410" key="Github.ShareDialog" timestamp="1576498505004">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -188,10 +186,10 @@
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state width="1899" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576585661587" />
-    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576584297817">
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576586865692">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576584297817" />
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576586865692" />
     <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576501166986" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1576500138746">
       <screen x="0" y="0" width="1920" height="1040" />
