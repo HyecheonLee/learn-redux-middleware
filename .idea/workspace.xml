@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cfb1aa0-8479-43c4-a152-84932e10bb17" name="Default Changelist" comment="Thunk 함수에서 리액트 라우터 History 사용하기">
-      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+    <list default="true" id="5cfb1aa0-8479-43c4-a152-84932e10bb17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/PostListContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PostListContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/posts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +87,7 @@
       <updated>1576498315038</updated>
       <workItem from="1576498316445" duration="3343000" />
       <workItem from="1576579393275" duration="8553000" />
-      <workItem from="1576828924679" duration="1155000" />
+      <workItem from="1576828924679" duration="1553000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1576498528825</created>
@@ -163,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576829437854</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="json server npx json-server .\data.json --port 4000">
+      <created>1576830130249</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576830130249</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,50 +183,51 @@
     <MESSAGE value="특정 포스트 읽기" />
     <MESSAGE value="포스트 데이터 상태 구조 바꾸기" />
     <MESSAGE value="Thunk 함수에서 리액트 라우터 History 사용하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thunk 함수에서 리액트 라우터 History 사용하기" />
+    <MESSAGE value="json server npx json-server .\data.json --port 4000" />
+    <option name="LAST_COMMIT_MESSAGE" value="json server npx json-server .\data.json --port 4000" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1280" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576584301731">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1280" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576584301731" />
-    <state x="-1348" y="30" key="CommitChangelistDialog2" timestamp="1576830110237">
+    <state x="-1348" y="30" key="CommitChangelistDialog2" timestamp="1576830129527">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="-1348" y="30" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576830110237" />
+    <state x="-1348" y="30" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576830129527" />
     <state x="572" y="26" key="CommitChangelistDialog2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576501164284" />
     <state x="801" y="410" key="Github.ShareDialog" timestamp="1576498505004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="801" y="410" key="Github.ShareDialog/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576498505004" />
-    <state width="1899" height="252" key="GridCell.Tab.0.bottom" timestamp="1576829703318">
+    <state width="1899" height="252" key="GridCell.Tab.0.bottom" timestamp="1576830447390">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576829703318" />
+    <state width="1899" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576830447390" />
     <state width="1899" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576588757816" />
-    <state width="1899" height="252" key="GridCell.Tab.0.center" timestamp="1576829703317">
+    <state width="1899" height="252" key="GridCell.Tab.0.center" timestamp="1576830447390">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="252" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576829703317" />
+    <state width="1899" height="252" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576830447390" />
     <state width="1899" height="252" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576588757816" />
-    <state width="1899" height="252" key="GridCell.Tab.0.left" timestamp="1576829703317">
+    <state width="1899" height="252" key="GridCell.Tab.0.left" timestamp="1576830447390">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="252" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576829703317" />
+    <state width="1899" height="252" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576830447390" />
     <state width="1899" height="252" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576588757816" />
-    <state width="1899" height="252" key="GridCell.Tab.0.right" timestamp="1576829703317">
+    <state width="1899" height="252" key="GridCell.Tab.0.right" timestamp="1576830447390">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state width="1899" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576829703317" />
+    <state width="1899" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576830447390" />
     <state width="1899" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576588757816" />
     <state x="-1205" y="149" key="RollbackChangesDialog" timestamp="1576588915819">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
     <state x="-1205" y="149" key="RollbackChangesDialog/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576588915819" />
-    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576829439201">
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576830132061">
       <screen x="-1920" y="4" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576829439201" />
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@-1920.4.1920.1040" timestamp="1576830132061" />
     <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.4.1920.1040@0.0.1920.1040" timestamp="1576501166986" />
     <state x="-1297" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1576830070916">
       <screen x="-1920" y="4" width="1920" height="1040" />
