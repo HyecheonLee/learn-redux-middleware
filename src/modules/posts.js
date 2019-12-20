@@ -1,4 +1,4 @@
-import * as postsAPI from "../posts";
+import * as postsAPI from "../api/posts";
 import {
   createPromiseThunk,
   createPromiseThunkById,
