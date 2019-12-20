@@ -28,6 +28,9 @@ const initialState = {
 
 const getPostsReducer = handleAsyncActions(GET_POSTS, "posts", true);
 const getPostReducer = handleAsyncActionsById(GET_POST, "post", true);
+export const goToHome = () => (dispatch, getState, { history }) => {
+  history.push("/");
+};
 
 export default function posts(state = initialState, action) {
   switch (action.type) {
